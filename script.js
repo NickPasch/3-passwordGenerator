@@ -106,6 +106,7 @@ function generatePassword(){
     alert("You will have " + length + " numbers in your password.")
     numN = length;
   }
+  // Collecting x characters based on user input and creating an array with them
   var pW = [];
     for(i=0; i < lowerN; i++){
     var lC = Math.floor(Math.random()*lower.length)
