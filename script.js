@@ -96,12 +96,15 @@ function generatePassword(){
   }
   if(lowerT && upperT === false && numT === false){
     alert("You will have " + length + " lowercase characters in your password.")
+    lowerN = length;
   }
   if(upperT && lowerT === false && numT === false){
     alert("You will have " + length + " uppercase characters in your password.")
+    upperN = length;
   }
   if(numT && lowerT === false && upperT === false){
     alert("You will have " + length + " numbers in your password.")
+    numN = length;
   }
   var pW = [];
     for(i=0; i < lowerN; i++){
